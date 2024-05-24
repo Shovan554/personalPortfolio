@@ -136,34 +136,6 @@ export const SkillBars: SkillBarsType[] = [
 ];
 
 
-export const educationInfo: EducationType[] = [
-  {
-    schoolName: "Caldwell University",
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "December 2022 - May 2026 (Expected)",
-    desc: "Current GPA: 3.76",
-    grade: "",
-    descBullets: [
-    ],
-  },
-  {
-    schoolName: "University of South Dakota",
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "August 2022 - December 2022",
-    desc: "",
-    grade: "",
-    descBullets: [],
-  },
-  {
-    schoolName: "Saint Xavier’s Maitighar",
-    subHeader: "Cambridge International AS & A Levels",
-    duration: "June 2019 - August 2021",
-    desc: "",
-    grade: "",
-    descBullets: [],
-  },
-];
-
 
 export const experience: ExperienceType[] = [
   {
@@ -202,6 +174,34 @@ export const experience: ExperienceType[] = [
     desc: "Built a help page for the SaaS framework using HTML and Bootstrap.",
   },
 ];
+export const educationInfo: EducationType[] = [
+  {
+    schoolName: "Caldwell University",
+    subHeader: "Bachelor of Science in Computer Science",
+    duration: "December 2022 - May 2026 (Expected)",
+    desc: "Current GPA: 3.76",
+    grade: "",
+    descBullets: [
+    ],
+  },
+  {
+    schoolName: "University of South Dakota",
+    subHeader: "Bachelor of Science in Computer Science",
+    duration: "August 2022 - December 2022",
+    desc: "",
+    grade: "",
+    descBullets: [],
+  },
+  {
+    schoolName: "Saint Xavier’s Maitighar",
+    subHeader: "Cambridge International AS & A Levels",
+    duration: "June 2019 - August 2021",
+    desc: "",
+    grade: "",
+    descBullets: [],
+  },
+];
+
 
 export const projects: ProjectType[] = [
 //   {

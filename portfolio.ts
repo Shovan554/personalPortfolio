@@ -254,7 +254,7 @@ export const seoData: SEODataType = {
   title: "Shovan Raut",
   description: greetings.description,
   author: "Shovan Raut",
-  image: "",
+  image: "img/dog.jpeg",
   url: "https://personal-portfolio-ivory-alpha.vercel.app/",
   keywords: [
     "Shovan",

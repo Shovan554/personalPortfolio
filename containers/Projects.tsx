@@ -18,6 +18,7 @@ const Projects = () => {
               </div>
               <div className="pl-4">
                 <h4 className="display-3 text-info">Projects</h4>
+                <h3>Coming Soon</h3>
               </div>
             </div>
             <Row className="row-grid align-items-center">

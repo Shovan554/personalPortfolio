@@ -135,8 +135,6 @@ export const SkillBars: SkillBarsType[] = [
   },
 ];
 
-
-
 export const experience: ExperienceType[] = [
   {
     role: "Research Assistant",

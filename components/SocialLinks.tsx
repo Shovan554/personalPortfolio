@@ -4,7 +4,7 @@ import { socialLinks } from "../portfolio";
 
 const SocialLinks = () => {
   return (
-    <div className="btn-wrapper text-lg">
+    <div className="btn-wrapper text-lg" >
       {socialLinks.email && (
         <Button
           className="btn-icon-only rounded-circle ml-1"

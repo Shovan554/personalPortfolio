@@ -1,3 +1,4 @@
+import { truncate } from "fs";
 import React from "react";
 import Lottie from "react-lottie";
 

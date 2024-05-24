@@ -17,10 +17,21 @@ const Navigation = () => {
 
   return (
     <>
-      <header className="header-global">
+      <style>
+        {`
+          @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+          
+          #nav-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 24px;
+            color: #ffffff;
+          }
+        `}
+      </style>
+      <header className="header-global" >
         <Navbar className="navbar-main navbar-transparent navbar-light headroom" expand="lg" id="navbar-main">
           <Container>
-            <NavbarBrand href="/" className="mr-lg-5">
+            <NavbarBrand href="/" className="mr-lg-5" >
               <h2 className="text-white" id="nav-title">
                 {greetings.name}
               </h2>

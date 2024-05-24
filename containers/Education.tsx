@@ -8,9 +8,9 @@ const Education = () => {
   return (
     educationInfo && (
       <Fade bottom duration={2000}>
-        <section className="section pb-0 bg-gradient-info my-5">
+        <section className="section pb-0 "style={{ backgroundColor: '#356887' }}>
           <Container>
-            <div className="d-flex px-3">
+            <div className="d-flex px-2">
               <div>
                 <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
                   <i className="ni ni-books text-info" />
@@ -23,7 +23,7 @@ const Education = () => {
             <Row className="row-grid align-items-center">
               {educationInfo.map(info => {
                 return (
-                  <Col className="order-lg-1" lg="6" key={info.schoolName}>
+                  <Col className="order-lg-1" lg="5" key={info.schoolName}>
                     <EducationCard {...info} />
                   </Col>
                 );

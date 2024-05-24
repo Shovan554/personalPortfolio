@@ -13,8 +13,8 @@ const Greetings = () => {
   return (
     <main>
       <div className="position-relative">
-        <section className="section section-lg section-shaped pb-250">
-          <div className="shape shape-style-1 bg-gradient-info">
+        <section className="section section-lg section-shaped pb-190">
+         <div className="shape " style={{ backgroundColor: '#356887' }}>
             <span />
             <span />
             <span />
@@ -42,7 +42,7 @@ const Greetings = () => {
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-file" />
                         </span>
-                        <span className="btn-inner--text">See My Resume</span>
+                        <span className="btn-inner--text">Hire Me</span>
                       </Button>
                     </div>
                   )}
@@ -63,7 +63,7 @@ const Greetings = () => {
               x="0"
               y="0"
             >
-              <polygon className="fill-white" points="2560 0 2560 100 0 100" />
+              <polygon className="fill-red" points="2560 0 2560 100 0 100" />
             </svg>
           </div>
         </section>

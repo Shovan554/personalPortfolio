@@ -177,7 +177,7 @@ export const educationInfo: EducationType[] = [
     schoolName: "Caldwell University",
     subHeader: "Bachelor of Science in Computer Science",
     duration: "December 2022 - May 2026 (Expected)",
-    desc: "Current GPA: 3.76",
+    desc: "",
     grade: "",
     descBullets: [
     ],
@@ -258,6 +258,7 @@ export const seoData: SEODataType = {
     "Shovan",
     "Shovan Raut",
     "@shovan554",
+    "shovan"
     
   ],
 };

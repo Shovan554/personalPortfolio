@@ -15,7 +15,7 @@ This is Shovan Raut's personal portfolio website showcasing skills, projects, an
 - **Frontend:** React, Next.js
 - **Styling:** Reactstrap, CSS
 - **Animations:** Lottie
-- **Deployment:** Vercel/Netlify
+- **Deployment:** Vercel
 
 ## Getting Started
 
